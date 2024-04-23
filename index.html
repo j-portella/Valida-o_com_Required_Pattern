@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Validação dos campos com REQUIRED</title>
+
+</head>
+
+<body>
+
+    <form>
+        <label>Senha:</label>
+        <input type="password" pattern=".{8}" title="Insira no mínimo 8 caracteres">
+        <br> <br>
+
+        <label>Nome:</label>
+        <input type="text" required>
+        <br> <br>
+
+        <label>E-mail:</label>
+        <input type="email" required>
+        <br> <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
